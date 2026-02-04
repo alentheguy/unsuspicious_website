@@ -1,6 +1,6 @@
 import afterProm from '@/assets/after-prom.jpg'
 import calcBoq from '@/assets/calculus-bouquet.jpg'
-import hebCart from '@/assets/heb-cart.JPEG'
+import hebCart from '@/assets/heb-cart.jpg'
 import terribleImage from '@/assets/terrible-photo.jpg'
 import valGift from '@/assets/valentines-gift.jpg'
 

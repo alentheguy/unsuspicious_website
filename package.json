@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://alentheguy.github.io/unsuspicious_website/",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
@@ -11,7 +12,7 @@
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix --cache",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist",
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
