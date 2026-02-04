@@ -6,4 +6,4 @@
         gyroscope;
         picture-in-picture;
         web-share;
-      `,referrerpolicy:"strict-origin-when-cross-origin",allowfullscreen:""},null,-1)])])}const Ra=Co(Aa,[["render",Sa]]),wa=oa({history:Hu(),routes:[{path:"/",name:"home",component:Ea},{path:"/video",name:"video",component:Ra}]});Yc(va).use(wa).mount("#app");
+      `,referrerpolicy:"strict-origin-when-cross-origin",allowfullscreen:""},null,-1)])])}const Ra=Co(Aa,[["render",Sa]]),wa=oa({history:Hu("/unsuspicious_website/"),routes:[{path:"/",name:"home",component:Ea},{path:"/video",name:"video",component:Ra}]});Yc(va).use(wa).mount("#app");
