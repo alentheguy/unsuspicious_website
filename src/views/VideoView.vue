@@ -9,5 +9,10 @@
       />
       Your browser does not support the video tag.
     </video>
+    <iframe
+      src="https://drive.google.com/file/d/1i6ALi3C3xydGOJNxgFHg228H3xJj9iFU/preview"
+      width="640"
+      height="480"
+    ></iframe>
   </div>
 </template>
