@@ -4,7 +4,7 @@
 
     <video controls class="valentine-video">
       <source
-        src="https://drive.google.com/file/d/1i6ALi3C3xydGOJNxgFHg228H3xJj9iFU/view?usp=sharing"
+        src="https://drive.google.com/uc?export=download&id=1i6ALi3C3xydGOJNxgFHg228H3xJj9iFU"
         type="video/mp4"
       />
       Your browser does not support the video tag.
