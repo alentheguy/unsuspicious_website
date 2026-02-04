@@ -3,7 +3,7 @@ import LastQuestion from '@/views/LastQuestion.vue'
 import VideoView from '@/views/VideoView.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/unsuspicious_website/'),
   routes: [
     {
       path: '/',
