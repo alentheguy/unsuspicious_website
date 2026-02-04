@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   max-width: 50vh;
   gap: 2vh;
+  margin-bottom: 10vh;
 }
 
 button {
@@ -118,4 +119,8 @@ button.pink:active::before {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+.valentine-video {
+  max-width: 90vw;
 }

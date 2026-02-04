@@ -12,13 +12,12 @@ const emit = defineEmits<{
 
 <template>
   <div class="question">
-    <!-- <Transition name="fade" appear> -->
     <h1 :key="question.id" class="question-text">
       {{ question.text }}
     </h1>
-    <!-- </Transition>
 
-    <TransitionGroup name="fade-answers" tag="div" class="choices"> -->
+    <img v-if="question.image" :src="question.image" alt="" class="question-image" />
+
     <button
       class="pink"
       v-for="(choice, index) in question.choices"
@@ -28,6 +27,5 @@ const emit = defineEmits<{
     >
       {{ choice.text }}
     </button>
-    <!-- </TransitionGroup> -->
   </div>
 </template>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, watch, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 import { questions } from './data/questions'
 import QuestionView from './components/QuestionView.vue'
 
@@ -7,12 +8,15 @@ const currentStep = ref(0)
 
 const skipFade = ref(false)
 
+const router = useRouter()
+
 onMounted(() => {
   const saved = localStorage.getItem('currentQuestion')
   if (saved !== null) {
     currentStep.value = Number(saved)
     skipFade.value = true
   }
+  router.replace('/')
 })
 
 watch(currentStep, (newVal) => {
@@ -26,11 +30,6 @@ function goToNext(next: number | null) {
     currentStep.value = next
   }
 }
-
-function reset() {
-  localStorage.removeItem('currentQuestion')
-  currentStep.value = 0
-}
 </script>
 
 <template>
@@ -43,12 +42,9 @@ function reset() {
         @select="goToNext"
       />
 
-      <div v-else class="final">💖 You made me the happiest person alive 💖</div>
+      <router-view v-else />
     </Transition>
   </main>
-  <div style="width: 100%; position: fixed; bottom: 10vh; text-align: center">
-    <button class="pink" @click="reset">Start Over</button>
-  </div>
 </template>
 
 <style scoped></style>
