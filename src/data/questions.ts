@@ -75,8 +75,8 @@ export const questions: Question[] = [
     choices: [
       { text: '1220 mi', next: 16 },
       { text: '1220 km', next: 15 },
-      { text: '12203751 ft', next: 15 },
       { text: "1.22% of Earth's Diameter", next: 15 },
+      { text: '12203751 ft', next: 15 },
     ],
   },
   {
@@ -96,9 +96,9 @@ export const questions: Question[] = [
     text: "Fine, I guess I can't keep quizzing you on numbers, so I'll dig into your memory instead. Before rehearsals, y'all usually went somewhere to do work. Where was that?",
     choices: [
       { text: 'Feng Cha', next: 15 },
-      { text: 'Gong Cha', next: 8 },
       { text: 'The Orchestra Room', next: 15 },
       { text: 'Chi Cha San Chen', next: 15 },
+      { text: 'Gong Cha', next: 8 },
     ],
   },
   {
@@ -117,9 +117,9 @@ export const questions: Question[] = [
     text: 'Dang, you still remember that? Alright, This was nearly a year ago, so no way you get it. Where did you two celebrate your first Valentines?',
     image: valGift,
     choices: [
+      { text: 'Cat Haven Lounge', next: 10 },
       { text: 'China Town', next: 15 },
       { text: 'POST Market', next: 15 },
-      { text: 'Cat Haven Lounge', next: 10 },
       { text: 'The Treehouse', next: 15 },
     ],
   },
