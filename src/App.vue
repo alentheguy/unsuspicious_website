@@ -20,7 +20,11 @@ onMounted(() => {
 })
 
 watch(currentStep, (newVal) => {
-  localStorage.setItem('currentQuestion', newVal.toString())
+  if (newVal == 17) {
+    localStorage.setItem('currentQuestion', '13')
+  } else {
+    localStorage.setItem('currentQuestion', newVal.toString())
+  }
 })
 
 const currentQuestion = computed(() => questions.find((q) => q.id === currentStep.value))

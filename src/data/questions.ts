@@ -145,13 +145,20 @@ export const questions: Question[] = [
     image: terribleImage,
     choices: [
       { text: 'Terrible 😭', next: 17 },
-      { text: 'Amazing!', next: 15 },
+      {
+        text: "It's missing some color, but it looks decent for the amount of progress that has been made. I'm sure it'll look phenomenal once it's finished!",
+        next: 15,
+        disabled: true,
+      },
     ],
   },
   {
     id: 13,
-    text: "So it IS the Annika Lee I've heard so much about. In that case, I can pass on the inquiry that I've been tasked with delivering to you from Alvin Wang.",
-    choices: [{ text: '-->', next: 14 }],
+    text: "It seems you've refreshed the page but have already proved that you're Annika Lee. Would you like to start again from the beginning or continue to the video?",
+    choices: [
+      { text: 'Take me back to the beginning', next: 0 },
+      { text: 'Take me to the video', next: 17 },
+    ],
   },
   {
     id: 14,
