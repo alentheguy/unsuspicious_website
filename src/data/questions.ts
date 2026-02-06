@@ -71,7 +71,7 @@ export const questions: Question[] = [
   },
   {
     id: 6,
-    text: "Dang, you really are good at dates. Are you good with distances though? How far apart are you and Alvin's dorms? (approx.)",
+    text: "Dang, you really are good at dates. Are you good with distances, though? How far apart are your and Alvin's dorms? (approx.)",
     choices: [
       { text: '1220 mi', next: 16 },
       { text: '1220 km', next: 15 },
@@ -114,7 +114,7 @@ export const questions: Question[] = [
   },
   {
     id: 9,
-    text: 'Dang, you still remember that? Alright, This was nearly a year ago, so no way you get it. Where did you two celebrate your first Valentines?',
+    text: "Dang, you still remember that? Alright, This was nearly a year ago, so no way you get it. Where did you two celebrate your first Valentine's?",
     image: valGift,
     choices: [
       { text: 'Cat Haven Lounge', next: 10 },
@@ -137,7 +137,7 @@ export const questions: Question[] = [
     id: 11,
     text: "OK, after all those questions I'm pretty sure you're Annika Lee, but there's just one final question that I must ask to guarantee that this is 100% positively Annika Lee.",
     image: calcBoq,
-    choices: [{ text: '-->', next: 12 }],
+    choices: [{ text: 'Sure...', next: 12 }],
   },
   {
     id: 12,
