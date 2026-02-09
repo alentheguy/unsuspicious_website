@@ -63,10 +63,10 @@ export const questions: Question[] = [
     text: "Okay, if you're so good at dates then when did Alvin get his college acceptance? (You celebrated his birthday with HEB tiramisu on this day)",
     image: hebCart,
     choices: [
-      { text: 'December 11, 2025', next: 15 },
-      { text: 'December 12, 2025', next: 15 },
-      { text: 'December 13, 2025', next: 6 },
-      { text: 'December 14, 2025', next: 15 },
+      { text: 'December 11, 2024', next: 15 },
+      { text: 'December 12, 2024', next: 15 },
+      { text: 'December 13, 2024', next: 6 },
+      { text: 'December 14, 2024', next: 15 },
     ],
   },
   {
